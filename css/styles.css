@@ -1,0 +1,234 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #000000;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)), url(../images/pearlbg.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.applegreen {
+    color: #86e662
+}
+
+.salmonpink {
+    color: #f29ab1
+}
+
+#cis-special-parent {
+
+    color: #f29ab1
+}
+
+#cis-special-parent a {
+    color: #47d151;
+}
+
+.headingsandlinks {
+    font-family: cursive;
+    color: white;
+}
+
+a {
+    text-decoration: inherit;
+}
+
+a:hover {
+    color: #86e662
+}
+
+.indexparagraph {
+    color: #ffffff;
+    border: 5px solid #86e662;
+    background-color: #f29ab1;
+    padding: 30px;
+    width: 500px;
+    font-size: 25px
+}
+
+nav a {
+    font-family: cursive;
+    color: #f29ab1;
+    font-size: 21px
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 100px
+}
+
+.thebar {
+    background-color: #000000;
+    border: 2px solid #86e662;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #f29ab1;
+    width: inherit;
+    margin-top: 10px
+}
+
+.thetop {
+    display: flex;
+    flex-direction: row;
+}
+
+.wordsatthetop {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    text-shadow: 2px 2px 2px #86e662;
+    font-family: cursive;
+    padding-left: 20px;
+    margin-top: 0px;
+    height: 10px;
+    font-size: 40px
+}
+
+.imgborder1 {
+    border: 10px solid #f29ab1;
+    border-radius: 15px;
+    border-style: groove
+}
+
+.imgborder2 {
+    border: 10px solid #86e662;
+    border-radius: 15px;
+    border-style: groove
+}
+
+.text {
+    color: #ffffff
+}
+
+.caption1 {
+    box-sizing: border-box;
+    width: 500px;
+    background-color: #f29ab1;
+    padding: 10px;
+    font-size: 20px
+}
+
+.caption2 {
+    box-sizing: border-box;
+    width: 500px;
+    background-color: #86e662;
+    padding: 20px;
+    border-style: dashed;
+    font-size: 19px
+}
+
+.indexcontent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.content1 {
+    display: flex;
+    align-content: flex-end;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-top: 20px
+}
+
+.grid1 {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.herstory {
+    text-shadow: 2px 2px 2px #86e662;
+}
+
+.historypage {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.historycaption {
+    width: 600px;
+    margin: auto;
+}
+
+.historypictureborder {
+    border: 10px solid #f29ab1;
+    border-style: outset;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.pinkborder {
+    box-sizing: border-box;
+    border: 10px solid #f29ab1;
+    border-radius: 15px;
+    border-style: double;
+}
+
+.greenborder {
+    box-sizing: border-box;
+    border: 10px solid #86e662;
+    border-radius: 15px;
+    border-style: groove;
+}
+
+.themiddle {
+    box-sizing: border-box;
+    width: 500px;
+}
+
+/*
+main div img {
+    padding: 10px
+        just want the gallery page?
+}*/
+
+
+.contacttitle {
+    font-family:cursive;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px #f29ab1;
+    font-size: 40px;
+    margin: 10px 0px 0px 0px;
+}
+
+main div form {
+    box-sizing: border-box;
+    width: 750px;
+    background-color: #f29ab1;
+    padding: 10px;
+    font-family:cursive;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px #86e662;border: 10px solid #86e662;
+    border-radius: 10px;
+    border-style: groove;
+    padding-left: 20px;
+}
+
+.regularformwords {
+    font-family: serif;
+    color: #ffffff;
+    text-shadow: 0px 0px 0px
+}
+
+.formtitle {
+    font-size: 30px;
+    margin: 0px;
+}
